@@ -1,0 +1,15 @@
+std:
+
+async_trait_read_avg:  20665.57395  async_trait_read_std:  5081.530469463056
+stack_future_read_avg:  19982.18195  stack_future_read_std:  1889.024010459951
+static_dispatch_read_avg:  19781.60955  static_dispatch_read_std:  1778.3452691614186
+afit_static_dispatch_read_avg:  19837.02095  afit_static_dispatch_read_std:  1534.8455538786623
+dynosaur_read_avg:  19926.6213  dynosaur_read_std:  1632.470393724281
+
+async-std:
+
+async_trait_read_avg:  75520.6751  async_trait_read_std:  15060.893321454743
+stack_future_read_avg:  76164.16945  stack_future_read_std:  24028.02788841995
+static_dispatch_read_avg:  84771.74135  static_dispatch_read_std:  17053.228992882843
+afit_static_dispatch_read_avg:  82987.7106  afit_static_dispatch_read_std:  17654.82990885632
+dynosaur_read_avg:  76342.87965  dynosaur_read_std:  15373.763744139424
