@@ -1,0 +1,14 @@
+[package]
+name = "evaluation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# async_utils = { path = "../modules/async_utils"}
+async-trait = "0.1.83"
+stackfuture = "0.3"
+dynosaur = "0.1"
+async-std = { version = "1.13", optional = true, features = ["attributes"] }
+
+[features]
+default = []
